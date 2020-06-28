@@ -1,0 +1,24 @@
+body{
+    background-color: #d5d8da;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*---H1---*/
+
+#identity{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Montserrat';
+    background: linear-gradient(to right, #000508, #39badd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+

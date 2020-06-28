@@ -1,0 +1,26 @@
+nav{   
+    display: flex;
+    margin: auto;
+    z-index: 2;
+}
+
+
+
+nav li{
+    display: inline-block;
+}
+
+
+nav a{
+    color: black;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;  
+}
+
+nav a:hover{
+    border-bottom: solid 4px #09181f;
+    width: 25px;
+    padding-bottom: 10px;
+}
