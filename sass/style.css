@@ -190,7 +190,7 @@ nav a:hover {
   text-align: center;
 }
 
-footer {
+#contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,7 +220,7 @@ iframe {
   z-index: 1;
 }
 
-.formulaire {
+#formulaire {
   background-color: gray;
   margin: auto;
   padding: 10%;
