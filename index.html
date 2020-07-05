@@ -80,31 +80,29 @@
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.727741141258!2d2.6137092159796764!3d48.84433167928616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60fe73ba64025%3A0xa4ce9b076d6947d2!2s4%20Square%20Alain%2C%2077186%20Noisiel!5e0!3m2!1sfr!2sfr!4v1593374248887!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>"
 
-            <form id="formulaire">
+            <form id="formulaire" action="post__contact.php" novalidate success-msg="Message envoyé avec succès" fail-msg="Oups ! Il semblerait que nous rencontrons un soucis avec le serveur, Navré pour le contre-temps, veuillez réessayer ultérieurement.">
                 
                 <h2>Nous Contacter</h2>
-                <p>
-                    <b>h2eaux express</b><br>4 square Alain, 77186 NOISIEL<br>Tél : 07 53 69 15 40<br>
-                </p>
-                <p>
-                    <i>Tous les champs sont obligatoires</i>
-                </p>
+                <p><b>h2eaux express</b><br>4 square Alain, 77186 NOISIEL<br>Tél : 07 53 69 15 40<br></p>
+                <p><i>Tous les champs sont obligatoires</i></p>
 
-                <input type="text" name="name" id="name" placeholder="Nom" title="Votre nom">
-                <br>
-                <br>
-                <input type="text" name="email" id="email" placeholder="E-mail" title="Votre e-mail">
-                <br>
-                <br>
-                <input type="text" name="subject" id="sujet" placeholder="Sujet" title="Sujet du message">
-                <br>
-                <br>
-                <textarea name="message" id="message" placeholder="Message" title="Corps du message"></textarea>
-                <br>
-                <br>
-                <input type="submit" name="envoyer" value="Envoyer">
+                <label for="inputemail">Votre Nom</label>
+                <input type="text" name="name" class="table__form" id="name" placeholder="Nom">
+                
+                <label for="inputemail">Votre Email</label>
+                <input type="text" name="email" class="table__form" id="email" placeholder="E-mail">
+                
+                <label for="inputemail">Comment nous avez-vous connu ?</label>
+                <input type="text" name="subject" class="table__form" id="input_504" placeholder="question">
+
+                <label for="inputemail">Votre Message</label>
+                <textarea name="message" class="table__form" id="message" placeholder="Message"></textarea>
+
+                <input type="submit" name="envoyer" value="Envoyer le message">
 
             </form>
+
+            
 
     </footer>
 

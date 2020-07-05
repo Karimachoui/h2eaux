@@ -24,16 +24,28 @@ iframe{
 }
 
 #formulaire{
-    background-color: gray;
-    margin: auto;
+    background-color: rgb(179, 179, 179);
+    margin: 30px auto;
     padding: 10%;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+}
+
+.table__form{
+    margin-bottom: 20px;
 }
 
 input[type=text], textarea{
     width: 100%;
 }
 
-
 input[type=submit]{
-    background: #5CABD1;
+    color: gold;
+    background: #177aa8;
+    font-weight: bold;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+    border-radius: 5%;
 }
