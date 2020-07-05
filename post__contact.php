@@ -15,8 +15,8 @@
 	$email_subject = "Message from your website";
 	$email_body = "Vous avez reçu un nouveau message. \n\n".
 				  "Name: $name \nEmail: $email \nInput_504: $input_504 \nMessage: $message \n";
-	$headers = 'MIME-Version: 1.0' . "\r\n"; 'Content-type: text/plain; charset=UTF-8' . "\r\n";	
-	$headers .= "From: karimachoui.github.io/h2eaux/\n";
+	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
+	$headers .= "From: karimachoui.github.io/h2eaux/ \n";
 	$headers .= "Reply-To: $input_504";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
